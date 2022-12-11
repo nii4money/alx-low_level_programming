@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-*
 * main - prints all possible different combinations of two digits
 *
 * Return: Always 0 (success)
@@ -25,10 +24,10 @@ int main(void)
 			    {
 				    putchar(tens);
 				    putchar(ones);
-				    if (!(ones == 'g' && tens == '8'))/*addes comma and spacee*/
+				    if (!(ones == '9' && tens == '8'))/*addes comma and spacee*/
 				    {
 					    putchar(',');
-					    putchar(',');
+					    putchar(' ');
 				    }
 			     }
 		 }
