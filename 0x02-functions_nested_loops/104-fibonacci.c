@@ -9,7 +9,7 @@
 int numLength(int num)
 
 {
-	int lenght = 0;
+	int length = 0;
 
 	if (!num)
 	{
@@ -19,10 +19,10 @@ int numLength(int num)
 	while (num)
 	{
 		num = num / 10;
-		lenght += 1;
+		length += 1;
 	}
 
-	return (lenght);
+	return (length);
 }
 /**
  * *main - prints the first 98 fibonaci sequences
@@ -38,7 +38,7 @@ int main(void)
 	{
 		if (f1o > 0)
 			printf("%lu", f1o);
-		initial0s = numLenght(mx) - 1 - numLenght(f1);
+		initial0s = numLength(mx) - 1 - numLength(f1);
 		while (f1o > 0 && initial0s > 0)
 		{
 			printf("%i", 0);
